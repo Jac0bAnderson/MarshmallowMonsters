@@ -1,7 +1,8 @@
 package marshmallows.controller;
 
-import marshmallow.view.MarshmallowOutput;
+
 import marshmellow.model.MarshmallowMonster;
+import marshmallows.view.MarshmallowOutput;
 
 public class MonsterController
 {
@@ -22,7 +23,7 @@ public class MonsterController
 	}
 	public void start()
 	{
-		myOutput.displayMonsterInfo(jakeMonster.toString());
+		myOutput.displayMonstersInfo(jakeMonster.toString());
 	}
 }
  

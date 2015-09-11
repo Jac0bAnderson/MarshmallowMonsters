@@ -25,10 +25,11 @@ this.monsterLegs = monsterLegs;
 this.monsterBellyButton = monsterBellyButton;
 
 }
-public String toString()
+	public String toString()
 {
-	String monster =" this has " + monsterEyes +"and it's name is" + monsterName;
-}
+		String monster =" this has " + monsterEyes +"and it's name is" + monsterName;
+		return monster;
+		}
 
 
 
