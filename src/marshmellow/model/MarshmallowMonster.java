@@ -25,9 +25,65 @@ this.monsterLegs = monsterLegs;
 this.monsterBellyButton = monsterBellyButton;
 
 }
+	public String getMonsterName()
+{
+	return monsterName;
+}
+	public int getMonsterEyes()
+{
+	return monsterEyes;
+}
+	public int monsterNose()
+{
+	return monsterNose;
+}
+	public double getMonsterHair()
+{
+	return monsterHair;
+}
+	public double getMonsterLegs()
+{
+	return monsterLegs;
+}
+	public boolean getMonsterBellyButton()
+{
+	return monsterBellyButton;
+}
+	public void setMonsterName(String monsterName)
+{
+	this.monsterName = monsterName;
+}
+	public void setMonsterEyes(int monsterEyes)
+	{
+		this.monsterEyes = monsterEyes;
+	}
+	
+	public void setMonsterNose(int monsterNose)
+	{
+		this.monsterNose = monsterNose;
+	}
+	public void setMonsterHair(double monsterHair)
+	{
+		this.monsterHair = monsterHair;
+	}
+	public void setMonsterLegs(double monsterLegs)
+	{
+		this.monsterLegs = monsterLegs;
+	}
+	public void setMonsterBellyButton(boolean monsterBellyButton)
+	{
+		this.monsterBellyButton = monsterBellyButton;
+	}
+	
+	
+	
+	
+	
+	
+
 	public String toString()
 {
-		String monster =" this has " + monsterEyes +"and it's name is" + monsterName;
+		String monster ="" + monsterEyes +" Eyes and it's name is " + monsterName;
 		return monster;
 		}
 

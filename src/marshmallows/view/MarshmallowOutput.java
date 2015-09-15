@@ -3,8 +3,8 @@ package marshmallows.view;
 public class MarshmallowOutput
 {
 
-	public void displayMonstersInfo(String info)
+	public void displayMonsterInfo(String info)
 	{
-		System.out.println("My monster info is "+ info);
+		System.out.println("Monster information: "+ info);
 	}
 }
