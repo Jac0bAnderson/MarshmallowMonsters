@@ -31,8 +31,8 @@ public class MonsterController
 	public void start()
 	{
 		myOutput.displayMonsterInfo(jakeMonster.toString());
-		askQuestions();
-		myOutput.displayMonsterInfo("My Muncher has " + jakeMonster.toString());
+		makeUserMonster();
+		myOutput.displayMonsterInfo("Your monster has " + userMonster.toString());
 	}
 	
 	private void askQuestions()
@@ -75,13 +75,13 @@ public class MonsterController
 		//Step two: define variables by using Scanner to get user input.
 		System.out.println("type in your name for da monster.");
 		userName = monsterScanner.nextLine();//nextLine automatically gives you a string
-			System.out.println("Type in the number of eyes for dmonster");
+			System.out.println("Type in the number of eyes for da monster");
 			userEyes =monsterScanner.nextInt();//you have to use nextInt to get the integer 
 		System.out.println(" Type in the number of noses dawg.");
 		userNoseCount = monsterScanner.nextInt();
 			System.out.println("How much hair dosnt ur monster have dood");
 			userHair = monsterScanner.nextDouble();
-		System.out.println("how many cooks i mean legs?");
+		System.out.println("how many cooks i, mean legs?");
 		userLegs = monsterScanner.nextDouble();
 			System.out.println("true or false, does you monster own his very own bellybutton");
 			userBellyButton= monsterScanner.nextBoolean();
