@@ -83,7 +83,7 @@ this.monsterBellyButton = monsterBellyButton;
 
 	public String toString()
 {
-		String monster ="" + monsterEyes +" Eyes and it's name is " + monsterName;
+		String monster ="" + monsterEyes +" Eyes and it has " + monsterNose + " nose(s), it also has " + monsterHair + " hairs, and its name is " + monsterName;
 		return monster;
 		}
 
