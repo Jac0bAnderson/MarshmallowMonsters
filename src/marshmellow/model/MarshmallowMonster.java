@@ -8,6 +8,7 @@ private int monsterNose;
 private double monsterHair;
 private double monsterLegs;
 private boolean monsterBellyButton; 
+
 // int, doubles, and booleans are primitives which means they can only hold value
 
 
@@ -24,7 +25,11 @@ this.monsterHair = monsterHair;
 this.monsterLegs = monsterLegs;
 this.monsterBellyButton = monsterBellyButton;
 
+
 }
+
+//getters
+
 	public String getMonsterName()
 {
 	return monsterName;
@@ -49,6 +54,9 @@ this.monsterBellyButton = monsterBellyButton;
 {
 	return monsterBellyButton;
 }
+	
+	//setter
+	
 	public void setMonsterName(String monsterName)
 {
 	this.monsterName = monsterName;
@@ -80,12 +88,18 @@ this.monsterBellyButton = monsterBellyButton;
 	
 	
 	
+	
 
 	public String toString()
 {
 		String monster =  monsterEyes +" Eyes and it has " + monsterNose + " nose(s), it also has " + monsterHair + " hairs, it has " + monsterLegs + " legs, and its belly button is " + monsterBellyButton + " and, its name is " + monsterName;
 		return monster;
 		}
+	public int toInt()
+	{
+		
+		return monsterEyes;
+	}
 
 
 

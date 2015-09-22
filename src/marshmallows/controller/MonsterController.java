@@ -20,7 +20,8 @@ public class MonsterController
 		double hair = .5;
 		int noses = 0;
 		boolean hasBellyButton = false;
-		String name= "Supa Maario";
+		
+		String name= "Bada Bing Bada Boom, Pizza";
 		
 		monsterScanner = new Scanner(System.in);
 		myOutput = new MarshmallowOutput();
@@ -30,9 +31,11 @@ public class MonsterController
 	
 	public void start()
 	{
-		myOutput.displayMonsterInfo(jakeMonster.toString());
-		makeUserMonster();
-		myOutput.displayMonsterInfo("Your monster has " + userMonster.toString());
+		myOutput.displayMonsterConsole(jakeMonster.toString());
+		myOutput.displayMonsterCool(jakeMonster.toInt());
+		//myOutput.displayMonsterGUI(jakeMonster.toString());
+		//this.makeUserMonster();
+		//myOutput.displayMonsterGUI("Your monster has " + userMonster.toString());
 	}
 	
 	private void askQuestions()
@@ -72,6 +75,7 @@ public class MonsterController
 		double userLegs;
 		boolean userBellyButton;
 		
+		
 		//Step two: define variables by using Scanner to get user input.
 		System.out.println("type in your name for da monster.");
 		userName = monsterScanner.nextLine();//nextLine automatically gives you a string
@@ -85,7 +89,7 @@ public class MonsterController
 		userLegs = monsterScanner.nextDouble();
 			System.out.println("true or false, does you monster own his very own bellybutton");
 			userBellyButton= monsterScanner.nextBoolean();
-			
+		
 			//Step three: Make a  monster -use the constructor.
 			userMonster = new MarshmallowMonster(userName, userEyes, userNoseCount, userHair, userLegs, userBellyButton); 
 			
