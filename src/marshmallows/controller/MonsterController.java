@@ -34,7 +34,7 @@ public class MonsterController
 		myOutput.displayMonsterConsole(jakeMonster.toString());
 		myOutput.displayMonsterCool(jakeMonster.toInt());
 		//myOutput.displayMonsterGUI(jakeMonster.toString());
-		//this.makeUserMonster();
+		this.makeUserMonster();
 		//myOutput.displayMonsterGUI("Your monster has " + userMonster.toString());
 	}
 	
